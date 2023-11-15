@@ -11,7 +11,7 @@ title:            "Ian Whitehouse"
 tagline:          ""
 description:      ""
 url:              "https://iwhitehouse.us"
-baseurl:          "/"
+# baseurl:          "/"
 
 author:
   name:           "Ian Whitehouse"
