@@ -8,9 +8,9 @@ permalink:        pretty
 
 # Setup
 title:            "Ian Whitehouse"
-tagline:          "Computer Science Student and Researcher"
-description:      "Welcome to my profile.  I am a computer science student at American University, graduating in Spring 2024.  here, you can find a sample of the work I completed during my undergraduate degree"
-url:              "https://ianjwhitehouse.github.io"
+tagline:          ""
+description:      "CS student (AU '24) and simulator game enthusiast.  Interested in autonomous agents and human-machine teaming"
+url:              "https://iwhitehouse.us"
 baseurl:          ""
 
 author:
@@ -22,5 +22,5 @@ paginate:         5
 # Custom vars
 # version:          2.1.0
 
-github:
-  repo:           https://github.com/ianjwhitehouse/ianjwhitehouse.github.io
+# github:
+#   repo:           https://github.com/ianjwhitehouse/ianjwhitehouse.github.io
