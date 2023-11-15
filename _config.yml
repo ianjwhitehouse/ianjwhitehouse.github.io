@@ -11,7 +11,7 @@ title:            "Ian Whitehouse"
 tagline:          ""
 description:      "CS student (AU '24) and simulator game enthusiast.  Interested in autonomous agents and human-machine teaming"
 url:              "https://iwhitehouse.us"
-baseurl:          ""
+baseurl:          "/"
 
 author:
   name:           "Ian Whitehouse"
