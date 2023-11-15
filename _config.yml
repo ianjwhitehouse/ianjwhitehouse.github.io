@@ -7,11 +7,11 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Ian Whitehouse
+title:            "Ian Whitehouse"
 tagline:          "Computer Science Student and Researcher"
-description:      "Welcome to my profile.  I am a computer science student at American University, graduating in Spring 2024.  Please take a look at some of the work I did during my time at American"
-url:              https://iwhitehouse.us
-baseurl:          /
+description:      "Welcome to my profile.  I am a computer science student at American University, graduating in Spring 2024.  here, you can find a sample of the work I completed during my undergraduate degree"
+url:              "https://ianjwhitehouse.github.io"
+baseurl:          ""
 
 author:
   name:           "Ian Whitehouse"
