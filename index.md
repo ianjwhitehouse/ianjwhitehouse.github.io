@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: Biography
 permalink: /
 ---
+
+# Biography
 
 ### Background
 Welcome to my web page.  I am a computer science student at American University, and I plan to continue my education by pursuing a doctorate focused on machine learning.  During my undergraduate career, I have had the opportunity to work on numerous exciting research projects, including gravitational wave detection with novel autoencoders, multi-modal misinformation detection, and big data processing.  I am currently exploring LLMs and supervised decision-making neural networks through projects within my classes.  Over the next couple months, I plan to share some of what I have learned and my projects through posts on this website, which can be viewed on the left sidebar.  In addition, I am currently an intern with Leidos and was previously an intern at Lockheed Martin.
