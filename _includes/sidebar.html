@@ -20,15 +20,15 @@
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null %}
-          {% if (node.layout == "page" or node.url == "/works/") and node.url != "/" %}
+          {% if (node.layout == "page" or node.url == "/works/") and (node.url != "/" or node.url != "") %}
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
           {% endif %}
         {% endif %}
       {% endfor %}
 
-      <span class="sidebar-nav-item">Updated {{ site.time | date: '%Y' }}</span>
+      <span class="sidebar-nav-item">Updated {{ site.time | date: '%B %Y' }}</span>
     </nav>
 
-    <!--<p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>-->
+    <!--<p>&copy; {{ site.time | date: '%B %Y' }}. All rights reserved.</p>-->
   </div>
 </div>
