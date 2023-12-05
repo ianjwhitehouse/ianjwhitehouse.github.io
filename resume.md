@@ -47,5 +47,5 @@ L. P. Damasceno, E. Rxhepi, A. Shafer, **I. Whitehouse**, C. C. Cavalcante, R. C
 **I. Whitehouse** and R. Corizzo, Gravitational Wave Detection with Novel Machine Learning Models, Washington, DC: American University College of Arts and Sciences, 2022.
  - Won conference award for research excelence
 
- ### Skills and Proficiencies ###
+ ### Skills and Proficiencies
  Tensorflow - Pytorch - Huggingface - Spark - Differential equations - Linear algebra - C++ - MATLAB - Wolfram Mathematica

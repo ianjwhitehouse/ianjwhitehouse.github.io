@@ -18,7 +18,7 @@ author:
   URL:            "iw9892a@american.edu"
 
 paginate:         5
-# paginate_path: "/works/page:num/"
+paginate_path: "/blog/page:num/"
 
 # Custom vars
 # version:          2.1.0
