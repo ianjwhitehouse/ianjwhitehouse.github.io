@@ -9,10 +9,17 @@ title: Resume
 *Bachelor of Science in Computer Science, Mathematics Minor (August 2020-May 2024)*
 #### Awards
  - Lockheed Martin STEM Scholarship
+ - American University Presidential Scholarship
  - American University Honors Program
  - 2nd and 3rd Place in the American University Center for Innovation's Hack for a Change hackathon
 
 ### Work Experience
+**American University (Washington, DC)**  
+*Teaching Assistant, Introduction to Data Mining (May 2023 - Present)*
+ - Hosted office hours biweekly to work with students on homework and projects
+ - Acted as a liaison between students and the professor
+ - Monitored student progress to provide feedback to the professor to ensure a holistic learning environment
+
 **Leidos, Inc. (Arlington, VA)**  
 *Machine Learning Intern (May 2023 - Present)*
  - Developed efficient, interpretable machine learning models for underwater acoustic sensing applications
@@ -37,15 +44,14 @@ title: Resume
  - Used Spark to create a mutlithreaded worflow to speedup complex algorithms
  - Co-author of two papers apply Spark algorithms to misinformation detection, and primary author of another paper
 
-### Publications
-**I. Whitehouse**, R. Yepez-Lopez and R. Corizzo, "Distributed Concept Drift Detection for Efficient Model Adaptation with Big Data Streams," in Proceedings of the 2023 IEEE International Conference on Big Data [Accepted to Appear], Sorrento, Italy, 2023.
+### Publications and Presentations
+**I. Whitehouse**, R. Yepez-Lopez and R. Corizzo, "Distributed Concept Drift Detection for Efficient Model Adaptation with Big Data Streams," in Proceedings of the 2023 IEEE International Conference on Big Data [Accepted to Appear], Sorrento, Italy, 2023. [Accessible here](https://iwhitehouse.us/public/content/2023/IEEE_Big_Data.pdf)
 
-L. P. Damasceno, E. Rexhepi, A. Shafer, **I. Whitehouse**, N. Japkowicz, C. C. Cavalcante, R. Corizzo and Z. Boukouvalas, "Exploiting Sparsity and Statistical Dependence in Multivariate Data Fusion: An Application to Misinformation Detection for High-Impact Events," Machine Learning, vol. 112 [Accepted to Appear], 2023.
+L. P. Damasceno, E. Rexhepi, A. Shafer, **I. Whitehouse**, N. Japkowicz, C. C. Cavalcante, R. Corizzo and Z. Boukouvalas, "Exploiting Sparsity and Statistical Dependence in Multivariate Data Fusion: An Application to Misinformation Detection for High-Impact Events," Machine Learning, vol. 112, 2023. [Accessible here](https://doi.org/10.1007/s10994-023-06424-8)
 
-L. P. Damasceno, E. Rxhepi, A. Shafer, **I. Whitehouse**, C. C. Cavalcante, R. Corizzo and Z. Boukouvalas, "Independent Vector Analysis with Sparse Inverse Covariance Estimation: An Application to Misinformation Detection," in Proceedings of the IEEE 33rd International Workshop on Machine Learning for Signal Processing (MLSP), Rome, 2023.
+L. P. Damasceno, E. Rxhepi, A. Shafer, **I. Whitehouse**, C. C. Cavalcante, R. Corizzo and Z. Boukouvalas, "Independent Vector Analysis with Sparse Inverse Covariance Estimation: An Application to Misinformation Detection," in Proceedings of the IEEE 33rd International Workshop on Machine Learning for Signal Processing (MLSP), Rome, 2023. [Accessible here](https://doi.org/10.1109/MLSP55844.2023.10285970) 
 
-**I. Whitehouse** and R. Corizzo, Gravitational Wave Detection with Novel Machine Learning Models, Washington, DC: American University College of Arts and Sciences, 2022.
- - Won conference award for research excelence
+**I. Whitehouse** and R. Corizzo, Gravitational Wave Detection with Novel Machine Learning Models, Washington, DC: American University College of Arts and Sciences, 2022. [Accessible here](https://iwhitehouse.us/public/content/2023/Mathias_GW_Poster.pdf)
 
- ### Skills and Proficiencies
- Tensorflow - Pytorch - Huggingface - Spark - Differential equations - Linear algebra - C++ - MATLAB - Wolfram Mathematica
+### Skills and Proficiencies
+Tensorflow - Huggingface - Spark - Differential equations - Linear algebra - C++ - MATLAB - Wolfram Mathematica

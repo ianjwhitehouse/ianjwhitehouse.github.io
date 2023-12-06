@@ -34,6 +34,7 @@
 @font-face {
   font-family: roboto;
   src: url(RobotoMono-VariableFont_wght.ttf);
+  font-display: swap;
 }
 
 html {
