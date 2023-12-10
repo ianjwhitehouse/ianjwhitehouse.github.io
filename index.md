@@ -11,5 +11,3 @@ I am a computer science student at American University, and I plan to continue m
 
 ### Research Interests
 Currently, I am interested in autonomous agents and human machine teaming, including how autonomous agents can learn to make decisions organically, which is the focus of my capstone project.  In addition, I am interested in the interpretability of these agents, which I believe is central to their effectiveness in human machine teaming.  As self-driving cars become mainstream, I believe that making them interpretable is the only path towards them being trusted by average drivers.  I am excited to pursue these interests within my PhD program.
-
-#### Please take a look around and contact me for additional information

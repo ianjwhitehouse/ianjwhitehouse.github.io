@@ -49,7 +49,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font-size: 16px;
   line-height: 1.5;
 }
@@ -82,7 +82,7 @@ a:focus {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .25em;
+  margin-bottom: .5em;
   font-weight: bold;
   line-height: 1.25;
   color: #313131;
@@ -107,7 +107,7 @@ h4, h5, h6 {
 /* Body text */
 p {
   margin-top: 0;
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
 }
 
 strong {
@@ -118,14 +118,14 @@ strong {
 /* Lists */
 ul, ol, dl {
   margin-top: 0;
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
 }
 
 dt {
   font-weight: bold;
 }
 dd {
-  margin-bottom: .25em;
+  margin-bottom: .5em;
 }
 
 /* Misc */
@@ -154,7 +154,7 @@ pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
 code {
-  padding: .25em .5em;
+  padding: .5em .5em;
   font-size: 85%;
   color: #bf616a;
   background-color: #f9f9f9;
@@ -163,7 +163,7 @@ code {
 pre {
   display: block;
   margin-top: 0;
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
   padding: 1em;
   font-size: .8em;
   line-height: 1.4;
@@ -182,7 +182,7 @@ pre code {
 
 /* Pygments via Jekyll */
 .highlight {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
   border-radius: 4px;
 }
 .highlight pre {
@@ -213,10 +213,10 @@ pre code {
 
 /* Quotes */
 blockquote {
-  padding: .25em 1em;
+  padding: .5em 1em;
   margin: .8em 0;
   color: #7a7a7a;
-  border-left: .25em solid #e5e5e5;
+  border-left: .5em solid #e5e5e5;
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -244,7 +244,7 @@ table {
 }
 td,
 th {
-  padding: .25em .5em;
+  padding: .5em .5em;
   border: 1px solid #e5e5e5;
 }
 tbody tr:nth-child(odd) td,
