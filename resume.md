@@ -6,7 +6,7 @@ title: Resumé
 
 ### Education
 **American University, College of Arts and Sciences (Washington, DC)**  
-*Bachelor of Science in Computer Science, Mathematics Minor (August 2020-May 2024)*
+*Bachelor of Science in Computer Science, Mathematics Minor (August 2020 - May 2024)*
 #### Awards
  - Lockheed Martin STEM Scholarship
  - American University Presidential Scholarship
@@ -26,7 +26,7 @@ title: Resumé
  - Acted as a liaison between students and the professor
  - Monitored student progress to provide feedback to the professor to ensure a holistic learning environment
 
-**The Kennedy Political Union (Washington, DC)**
+**The Kennedy Political Union (Washington, DC)**  
 *Deputy Director of Production (September 2023 - Present)*
  - Managed a team of 30 volunteers to produce all elements of live speaking events at American University with top political figures for over 500 students
  - Oversaw every element of event design, from equipment procurement to camera placement and security
