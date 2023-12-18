@@ -21,7 +21,7 @@ title: Résumé
  - Employed principles of digital signal processing to understand how machine learning models interpret sensor data
 
 **American University (Washington, DC)**  
-*Teaching Assistant, Introduction to Data Mining (May 2023 - Present)*
+*Teaching Assistant, Introduction to Data Mining (September 2023 - Present)*
  - Hosted office hours biweekly to work with students on homework and projects
  - Acted as a liaison between students and the professor
  - Monitored student progress to provide feedback to the professor to ensure a holistic learning environment
