@@ -20,5 +20,6 @@ I trained the model on my tag game by first running a completely random agent, w
 
 I am excited for the opportunity to expand on this project next semester.  More specific information is in the posts below, including the GIFs of the agents performing the specific strategies that I mentioned above. 
 
-[Presentation Accessible Here](/public/content/2023/capstone_1.pptx) 
+[Presentation Accessible Here](/public/content/2023/capstone_1.pptx)  
+
 [Report Accessible Here](/public/content/2023/capstone_1.pdf) 
