@@ -40,49 +40,55 @@ In the future, I want to experiment with a different model and to fine-tune the 
 
 **Sample Conversations** 
 
-*user*: What is American University?  
-*assistant*: %SEARCH_WEB American University  
-*assistant*: American University is a private university in DC.  Its campus is located in Northwest DC.  Its average GPA is a 3.3 and its average SAT score is 1240.  Its average LSAT score is 154.  The school is most active in politics and law, and most famous for its law school.  
-*user*: Do they have a computer science department?  
-*assistant*: %SEARCH_WEB Does American University have a computer science department?  
-*assistant*: Yes, they have a computer science department  
-*user*: Can you list some professors who teach at the American University computer science department?  
-*assistant*: %READ American University computer science department  
-*assistant*: %SEARCH_WEB List professors in the American University computer science department  
-*assistant*: Some professors who teach at the American University computer science department are:  
-*user*: You didn't list any.  Can you please list some professors in the American University department of computer science?  
-*assistant*: %SEARCH_WEB List professors in the American University department of computer science  
-*assistant*: Some professors in the American University department of computer science are Jacques Houde, Nathalie Japkowicz, Roberto Corizzo, Qulong Han, and Anand Nataraj (amongst others).  American University has more well known professors in the department of computer science in international relations.  
+```
+User: What is American University?  
+Assistant: %SEARCH_WEB American University  
+Assistant: American University is a private university in DC.  Its campus is located in Northwest DC.  Its average GPA is a 3.3 and its average SAT score is 1240.  Its average LSAT score is 154.  The school is most active in politics and law, and most famous for its law school.  
+User: Do they have a computer science department?  
+Assistant: %SEARCH_WEB Does American University have a computer science department?  
+Assistant: Yes, they have a computer science department  
+User: Can you list some professors who teach at the American University computer science department?  
+Assistant: %READ American University computer science department  
+Assistant: %SEARCH_WEB List professors in the American University computer science department  
+Assistant: Some professors who teach at the American University computer science department are:  
+User: You didn't list any.  Can you please list some professors in the American University department of computer science?  
+Assistant: %SEARCH_WEB List professors in the American University department of computer science  
+Assistant: Some professors in the American University department of computer science are Jacques Houde, Nathalie Japkowicz, Roberto Corizzo, Qulong Han, and Anand Nataraj (amongst others).  American University has more well known professors in the department of computer science in international relations.
+```  
 *Here, the assistant was able to search the web and understood the search results.  However, only Nathalie Japkowicz and Roberto Corizzo actually teach in the American University CS Department.  The other people listed are potentially real people, so maybe their names appear in the model's training data* 
 
-*user*: Can you move up one directory?  
-*assistant*: %CD ..  
-*assistant*: I have moved up one directory  
-*user*: What is in this directory?  Is my auto-encoder research in it?  
-*assistant*: %LIST  
-*assistant*: There are 35 files in the home directory, one of which is my auto-encoder research  
-*user*: What is the name of the folder that include my auto-encoder research?  
-*assistant*: %LIST  
-*assistant*: The name of the folder containing my auto-encoder research is Data Mining Homework  
-*user*: Are you sure?  Is there a folder named Auto-encoder stuff?  
-*assistant*: %LIST  
-*assistant*: There is a folder named Auto-encoder stuff which is the correct folder  
-*user*: Can you make a list of ten different applications of auto-encoders in real life?  
-*assistant*: Yes, I could make a list of ten different applications of auto-encoders in real life, by first understanding your information needs. Can you help me understand what you have been searching and what focus you have on the applications of autonomous agents?  
-*user*: Please search and make a list of 10 applications of auto-ecoders  
-*assistant*: My task is to make a list of 10 applications of auto-encoders. I am pretty confident that i can complete this task, however…  
+```
+User: Can you move up one directory?  
+Assistant: %CD ..  
+Assistant: I have moved up one directory  
+User: What is in this directory?  Is my auto-encoder research in it?  
+Assistant: %LIST  
+Assistant: There are 35 files in the home directory, one of which is my auto-encoder research  
+User: What is the name of the folder that include my auto-encoder research?  
+Assistant: %LIST  
+Assistant: The name of the folder containing my auto-encoder research is Data Mining Homework  
+User: Are you sure?  Is there a folder named Auto-encoder stuff?  
+Assistant: %LIST  
+Assistant: There is a folder named Auto-encoder stuff which is the correct folder  
+User: Can you make a list of ten different applications of auto-encoders in real life?  
+Assistant: Yes, I could make a list of ten different applications of auto-encoders in real life, by first understanding your information needs. Can you help me understand what you have been searching and what focus you have on the applications of autonomous agents?  
+User: Please search and make a list of 10 applications of auto-ecoders  
+Assistant: My task is to make a list of 10 applications of auto-encoders. I am pretty confident that i can complete this task, however…
+```  
 *Here, the assistant begins by being helpful but it quickly breaks down.  I ended up restarting it to see if I could get a better result, but this task may have been too complicated* 
 
-*user*: When is American University's Spring Break in 2024?  
-*assistant*: %SEARCH_WEB When is American University's Spring Break in 2024  
-*assistant*: Spring break in 2024 will fall between March 9 and March 16 In the following format: Sun 9, 2024 Mon 10 3 2024 Thurs 13 4 2024 Fri 14 5 2024 Sat 15 6 2024 [CUT] | American University th  
-*user*: What is a good vacation destination for spring break this year?  
-*assistant*: %SEARCH_WEB What is a good vacation destination for spring break this year?  
-*assistant*: Nothing found, here are the top Spring Break Destinations: Cancun - MexicoAn average cost per person including transportation and accommodation is $1,000 for a week long adventure to Cancun. When compared to other Mexican destinations, Cancun has the highest ... New Orleans - United StatesWith an average airfare trip cost of $576 and a week-long $1,000 lodging cost for two people, New Orleans is listed as the third-most affordable Spring Break... Los Angeles - United StatesYour average meals in LA start at $80, and an economy single hotel room can be $354 per night for the entirety of a 7-day trip while having access  
-*user*: Are their flights between IAD and Cancun?  
-*assistant*: %SEARCH_WEB are their flights between IAD and Cancun?  
-*assistant*: AirTran Airlines is the cheapest airline.  The trip will cost an average of $576 and you will be staying for 7 days.  Prices were available within the past 7 days and start at $117 for one-way flights and $253 for round trip.  $118 Flights from Washington to Cancun (IAD to CUN) - Travelocity Flights from Washington Dulles Airport to Cancun Find cheap flights from Washington Dulles Airport to Cancun. Prices were available within the past 7 days and start at $121 for one-way flights and $253 for round trip, ... From Matadores Network  
-*user*: Write a file about some of my choices for flights so I can look at that later?  
-*assistant*: %WRITE flights.txt AirTran Airlines is the cheapest airline.  The trip will cost an average of $576 and you will be staying for 7 days.  Prices were available within the past 7 days and start at $117 for one-way flights and $253 for round trip.  $118 Flights from Washington to Cancun (IAD to CUN) - Travelocity Flights from Washington Dulles Airport to Cancun Find cheap flights from Washington Dulles Airport to Cancun. Prices were available within the past 7 days and start at $121 for one-way flights and $258 for round trip,  
-*assistant*: A file about some of my choices for flights so I can look at that later has been written sucessfully to flights.txt  
+```
+User: When is American University's Spring Break in 2024?  
+Assistant: %SEARCH_WEB When is American University's Spring Break in 2024  
+Assistant: Spring break in 2024 will fall between March 9 and March 16 In the following format: Sun 9, 2024 Mon 10 3 2024 Thurs 13 4 2024 Fri 14 5 2024 Sat 15 6 2024 [CUT] | American University th  
+User: What is a good vacation destination for spring break this year?  
+Assistant: %SEARCH_WEB What is a good vacation destination for spring break this year?  
+Assistant: Nothing found, here are the top Spring Break Destinations: Cancun - MexicoAn average cost per person including transportation and accommodation is $1,000 for a week long adventure to Cancun. When compared to other Mexican destinations, Cancun has the highest ... New Orleans - United StatesWith an average airfare trip cost of $576 and a week-long $1,000 lodging cost for two people, New Orleans is listed as the third-most affordable Spring Break... Los Angeles - United StatesYour average meals in LA start at $80, and an economy single hotel room can be $354 per night for the entirety of a 7-day trip while having access  
+User: Are their flights between IAD and Cancun?  
+Assistant: %SEARCH_WEB are their flights between IAD and Cancun?  
+Assistant: AirTran Airlines is the cheapest airline.  The trip will cost an average of $576 and you will be staying for 7 days.  Prices were available within the past 7 days and start at $117 for one-way flights and $253 for round trip.  $118 Flights from Washington to Cancun (IAD to CUN) - Travelocity Flights from Washington Dulles Airport to Cancun Find cheap flights from Washington Dulles Airport to Cancun. Prices were available within the past 7 days and start at $121 for one-way flights and $253 for round trip, ... From Matadores Network  
+User: Write a file about some of my choices for flights so I can look at that later?  
+Assistant: %WRITE flights.txt AirTran Airlines is the cheapest airline.  The trip will cost an average of $576 and you will be staying for 7 days.  Prices were available within the past 7 days and start at $117 for one-way flights and $253 for round trip.  $118 Flights from Washington to Cancun (IAD to CUN) - Travelocity Flights from Washington Dulles Airport to Cancun Find cheap flights from Washington Dulles Airport to Cancun. Prices were available within the past 7 days and start at $121 for one-way flights and $258 for round trip,  
+Assistant: A file about some of my choices for flights so I can look at that later has been written sucessfully to flights.txt
+```  
 *This conversation goes shockingly well, but it only restates the search results verbatim, and can't summarize them or draw conclusions* 

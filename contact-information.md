@@ -4,5 +4,5 @@ permalink: /contacts/
 title: Contact information
 ---
 
-Email: [iw9892a@american.edu](mailto:iw9892a@american.edu)  
+Email: [ian.j.whitehouse@gmail.com](mailto:ian.j.whitehouse@gmail.com)  
 LinkedIn: [iwhitehouse](https://www.linkedin.com/in/iwhitehouse/)
