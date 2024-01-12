@@ -12,7 +12,7 @@ title: Selected Projects
       </a>
     </h1>
 
-    {% assign tags = post.tags | join: ", " %}
+    {% assign tags = post.tags | join: ", " | replace: "-", " " %}
     <span class="post-date">{{ post.date | date_to_string | append: " • Tags: " | append: tags}}</span>
 
     <!--<span class="post-date">{{ post.date | date_to_string }}</span>-->

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Supervised Intelligent Agents - My First Semester Capstone Project"
-tags: Project Decision-Making Autonomy
+tags: Class-Project Decision-Making Autonomy
 ---
 
 For my first capstone project during my senior year, I worked on designing an autonomous agent to play a game of tag against another agent.  The premise of this project was simple: I wanted to build an AI system that could be trained using supervised learning and then play a semi-complex game using only visual input.  This project was primarily inspired by Yann LeCun's essay ["A Path Towards Autonomous Machine Intelligence"](https://openreview.net/pdf?id=BZ5a1r-kVsf) and his [talk at Northeastern University](https://www.youtube.com/watch?v=mViTAXCg1xQ). 
