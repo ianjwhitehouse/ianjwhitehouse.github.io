@@ -17,7 +17,7 @@ author:
   name:           "Ian Whitehouse"
   URL:            "iw9892a@american.edu"
 
-paginate:         5
+paginate:         15
 paginate_path: "/blog/page:num/"
 
 # Custom vars

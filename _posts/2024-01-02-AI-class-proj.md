@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Giving Large Language Models Access to Tools - AI Class Final Project"
-tags: Class-Project Natural-Language Large-Language-Model
+tags: Class-Project Large-Language-Models Natural-Language-Processing
 ---
 
 While searching for a final project for my artificial intelligence class last semester, I was inspired by [Andrej Karpathy's tweet on an LLM Operating System](https://twitter.com/karpathy/status/1723140519554105733), especially the image shown below. 
