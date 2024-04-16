@@ -1,0 +1,13 @@
+.form_child {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+}
+
+.form_child_child {
+  display: inline-block;
+  width: 25%;
+  text-align: left;
+  padding: 3px;
+}
+
