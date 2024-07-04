@@ -5,5 +5,5 @@ title: Contact information
 ---
 
 Email: [ian.j.whitehouse@gmail.com](mailto:ian.j.whitehouse@gmail.com)  
-LinkedIn: [iwhitehouse](https://www.linkedin.com/in/iwhitehouse/)
-GitHub: [ianjwhitehouse](https://github.dev/ianjwhitehouse)/
+LinkedIn: [iwhitehouse](https://www.linkedin.com/in/iwhitehouse/)  
+GitHub: [ianjwhitehouse](https://github.dev/ianjwhitehouse/)
