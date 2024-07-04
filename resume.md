@@ -53,7 +53,7 @@ title: Résumé
 ### Publications and Presentations
 **I. Whitehouse** and G. Byrne, Adversarial Machine Learning Training for Signal-to-Noise Generalization in Passive Undersea Acoustics, San Diego, CA: Naval Applications of Machine Learning, 2024. [Accessible here](https://iwhitehouse.us/public/content/2024/naml.pdf)
 
-**I. Whitehouse**, R. Yepez-Lopez and R. Corizzo, "Distributed Concept Drift Detection for Efficient Model Adaptation with Big Data Streams," in Proceedings of the 2023 IEEE International Conference on Big Data [Accepted to Appear], Sorrento, Italy, 2023. [Accessible here](https://iwhitehouse.us/public/content/2023/IEEE_Big_Data.pdf)
+**I. Whitehouse**, R. Yepez-Lopez and R. Corizzo, "Distributed Concept Drift Detection for Efficient Model Adaptation with Big Data Streams," in Proceedings of the 2023 IEEE International Conference on Big Data, Sorrento, Italy, 2023. [Accessible here](http://dx.doi.org/10.1109/BigData59044.2023.10386334)
 
 L. P. Damasceno, E. Rexhepi, A. Shafer, **I. Whitehouse**, N. Japkowicz, C. C. Cavalcante, R. Corizzo and Z. Boukouvalas, "Exploiting Sparsity and Statistical Dependence in Multivariate Data Fusion: An Application to Misinformation Detection for High-Impact Events," Machine Learning, vol. 112, 2023. [Accessible here](https://doi.org/10.1007/s10994-023-06424-8)
 
