@@ -50,16 +50,5 @@ title: Résumé
  - Used Spark to create a multithreaded workflow to speedup complex algorithms
  - Co-author of two papers applying Spark to misinformation detection and primary author of a paper applying Spark to concept drift
 
-### Publications and Presentations
-**I. Whitehouse** and G. Byrne, Adversarial Machine Learning Training for Signal-to-Noise Generalization in Passive Undersea Acoustics, San Diego, CA: Naval Applications of Machine Learning, 2024. [Accessible here](https://iwhitehouse.us/public/content/2024/naml.pdf)
-
-**I. Whitehouse**, R. Yepez-Lopez and R. Corizzo, "Distributed Concept Drift Detection for Efficient Model Adaptation with Big Data Streams," in Proceedings of the 2023 IEEE International Conference on Big Data, Sorrento, Italy, 2023. [Accessible here](http://dx.doi.org/10.1109/BigData59044.2023.10386334)
-
-L. P. Damasceno, E. Rexhepi, A. Shafer, **I. Whitehouse**, N. Japkowicz, C. C. Cavalcante, R. Corizzo and Z. Boukouvalas, "Exploiting Sparsity and Statistical Dependence in Multivariate Data Fusion: An Application to Misinformation Detection for High-Impact Events," Machine Learning, vol. 112, 2023. [Accessible here](https://doi.org/10.1007/s10994-023-06424-8)
-
-L. P. Damasceno, E. Rxhepi, A. Shafer, **I. Whitehouse**, C. C. Cavalcante, R. Corizzo and Z. Boukouvalas, "Independent Vector Analysis with Sparse Inverse Covariance Estimation: An Application to Misinformation Detection," in Proceedings of the IEEE 33rd International Workshop on Machine Learning for Signal Processing (MLSP), Rome, 2023. [Accessible here](https://doi.org/10.1109/MLSP55844.2023.10285970) 
-
-**I. Whitehouse** and R. Corizzo, Gravitational Wave Detection with Novel Machine Learning Models, Washington, DC: American University College of Arts and Sciences, 2022. [Accessible here](https://iwhitehouse.us/public/content/2023/Mathias_GW_Poster.pdf)
-
 ### Skills and Proficiencies
 TensorFlow - Torch - Keras - Huggingface - Apache Spark - Differential equations - Linear algebra - C++ - MATLAB - Wolfram Mathematica - Django
