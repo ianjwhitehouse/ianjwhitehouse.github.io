@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Supervised Intelligent Agents - My First Semester Capstone Project"
+title: "Supervised Intelligent Agents - First Semester Capstone Project"
 tags: Class-Project Decision-Making Autonomy
 ---
 
