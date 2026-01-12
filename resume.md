@@ -4,8 +4,6 @@ permalink: /resume/
 title: Resume
 ---
 
-Download the pdf [here](https://iwhitehouse.us/public/content/2026/resume.pdf)
-
 <style>
     .pdf-frame {
         position: relative;
