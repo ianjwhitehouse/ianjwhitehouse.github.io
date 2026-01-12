@@ -10,7 +10,7 @@ Download the pdf [here](https://iwhitehouse.us/public/content/2026/resume.pdf)
     .pdf-frame {
         position: relative;
         width: 100%;
-        height: calc(100vh - 120px);  /* subtract header/nav height */
+        height: calc(100vh - 200px);  /* subtract header/nav height */
         min-height: 800px;
     }
 
