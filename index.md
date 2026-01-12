@@ -4,10 +4,44 @@ title: Biography
 permalink: /
 ---
 
-# Biography
+# Ian Whitehouse
+**Computer Science PhD student focused on neuromorphic and unconventional computing**
+
+I am a student and researcher advised by [William Regli](https://www.cs.umd.edu/people/regli) and [Wolfgang Losert](https://umdphysics.umd.edu/people/faculty/current/item/318-wlosert.html). I work on unconventional computing substrates, including analog SAT solvers, neuromorphic algorithms, and living neuronal computers. I am interested in how computation emerges from continuous, nonlinear, and adaptive systems, and how this enables learning in regimes where deep learning is impractical.
+
+### Research Focus
+
+I investigate non-traditional computational methods, such as Ising, living, and neuromorphic computers. Key themes include:
+
+- **Reservoir computing** as a framework for computation using high-dimensional dynamical systems  
+- **Biological reservoirs** that bridge **in-vitro and in-silico neural dynamics**  
+- Establishing **principled metrics for computational capacity** in physical and biological reservoirs  
+- **Concept drift and continual learning** in time series, for systems that continuously adapt like the brain  
+- Informing the **deployment of unconventional computing systems** for national security priorities  
 
 ### Background
-I am a PhD student at the University of Maryland, studying under Dr. William Regli.  Over the last 4 years, I have had the opportunity to work on a broad collection of research, from gravitational wave detection with novel autoencoders and multi-modal misinformation detection, to building a life-size humanoid robot and operating a holographic capture studio.  I am currently working with Dr. Regli and other students on various projects focused on artificial intelligence and quantum computing.  In addition to research, I have interned at Leidos within the Leidos Innovation Center and was previously an intern at Lockheed Martin within Rotary and Mission Systems.  I enjoy riding my road bike, and I have completed [RAGBRAI](https://ragbrai.com/) since I was 10.  I also enjoy playing video games (Factorio Space Age) and exploring DC.
 
-### Research Interests
-Currently, I am interested in the intersections of teaming, autonomy, perception and understanding.  Over the last couple years, in nearly every domain, we have seen AI agents perform incredible reasoning tasks only to be held back by an innability to percieve and understand their workspace or an inability to contribute to their human teammates.  I believe that there isn't an easy solution to each of these challenges, which is what excites me to research them.
+I am a PhD student in the **University of Maryland Department of Computer Science**, advised by [William Regli](https://www.cs.umd.edu/people/regli) and [Wolfgang Losert](https://umdphysics.umd.edu/people/faculty/current/item/318-wlosert.html). I am affiliated with the [Losert Lab](https://losertlab.umd.edu/). I received my BS in Computer Science from **American University**, where I worked with [Roberto Corizzo](https://www.american.edu/cas/faculty/rcorizzo.cfm).
+
+Previously, I interned at:
+
+- The **Army Research Lab**, working with neuronal recordings  
+- **Leidos, Inc.**, creating adversarial learning algorithms and synthetic data modeling for underwater acoustics  
+- **Lockheed Martin**, enhancing simulation capabilities for the radar of the E-2D Advanced Hawkeye aircraft  
+
+### Publications, Presentations, and Resume
+
+An updated list of my [publications and preprints](https://iwhitehouse.us/publications/) and the [presentations I have given](https://iwhitehouse.us/presentations/) are available on their respective pages.
+
+A PDF of my resume is available on the [resume](https://iwhitehouse.us/resume/) page.
+
+### Contact Information
+
+Email: [ianjw@umd.edu](mailto:ianjw@umd.edu)  
+LinkedIn: [iwhitehouse](https://www.linkedin.com/in/iwhitehouse/)  
+GitHub: [ianjwhitehouse](https://github.com/ianjwhitehouse/)  
+Google Scholar: [Ian Whitehouse](https://scholar.google.com/citations?user=492-NCcAAAAJ)
+
+### Outside the Lab
+
+When I'm not building, I enjoy cycling both long and short distances, board games, and trying new restaurants in the DMV.
