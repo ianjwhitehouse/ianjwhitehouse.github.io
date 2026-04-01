@@ -5,6 +5,10 @@ title: Publications
 ---
 
 ### Publications
+**I. Whitehouse**, H. Kang and W. Losert "Emergent Detection of Concept Drift within the Glia-Inspired `Rhythmic Sharing' Algorithm," preprint (under review), 2026. [Download](https://iwhitehouse.us/public/content/2026/npj.pdf)
+
+R. O'Loughlin, B. Oripov, N. Skuda, N. Chongsiriwatana, **I. Whitehouse**, W. Losert, B. Hayes, A. McCaughan and S. Buckley, "δ Multiplexed Gradient Descent: Perturbative Learning with Astrocytes," in Proceedings of the IEEE Conference on Neuro-Inspired Computational Elements (NICE), Atlanta, United States, 2026.
+
 **I. Whitehouse**, R. Yepez-Lopez and R. Corizzo, "Distributed Concept Drift Detection for Efficient Model Adaptation with Big Data Streams," in Proceedings of the 2023 IEEE International Conference on Big Data, Sorrento, Italy, 2023. [DOI](http://dx.doi.org/10.1109/BigData59044.2023.10386334), [Download](https://iwhitehouse.us/public/content/2023/IEEE_Big_Data.pdf)
 
 L. P. Damasceno, E. Rexhepi, A. Shafer, **I. Whitehouse**, N. Japkowicz, C. C. Cavalcante, R. Corizzo and Z. Boukouvalas, "Exploiting Sparsity and Statistical Dependence in Multivariate Data Fusion: An Application to Misinformation Detection for High-Impact Events," Machine Learning, vol. 112, 2023. [DOI](https://doi.org/10.1007/s10994-023-06424-8), [Download](https://iwhitehouse.us/public/content/2023/IEEE_MLSP.pdf)

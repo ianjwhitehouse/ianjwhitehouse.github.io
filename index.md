@@ -7,7 +7,7 @@ permalink: /
 # Ian Whitehouse
 **Computer Science PhD student focused on neuromorphic and unconventional computing**
 
-I am a student and researcher advised by [William Regli](https://www.cs.umd.edu/people/regli) and [Wolfgang Losert](https://umdphysics.umd.edu/people/faculty/current/item/318-wlosert.html). I work on unconventional computing substrates, including analog SAT solvers, neuromorphic algorithms, and living neuronal computers. I am interested in how computation emerges from continuous, nonlinear, and adaptive systems, and how this enables learning in regimes where deep learning is impractical.
+I work on unconventional computing substrates, including analog SAT solvers, neuromorphic algorithms, and living neuronal computers. I am interested in how computation emerges from continuous, nonlinear, and adaptive systems, and how this enables learning in regimes where deep learning is impractical.
 
 ### Research Focus
 
