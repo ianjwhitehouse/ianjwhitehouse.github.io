@@ -44,4 +44,4 @@ Google Scholar: [Ian Whitehouse](https://scholar.google.com/citations?user=492-N
 
 ### Outside the Lab
 
-When I'm not building, I enjoy cycling both long and short distances, board games, and trying new restaurants in the DMV.
+When I'm not building, I enjoy [cycling](https://www.strava.com/athletes/147790697), board games, and trying new restaurants in the DMV.

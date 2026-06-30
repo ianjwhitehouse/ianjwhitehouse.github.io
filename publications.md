@@ -6,11 +6,11 @@ title: Publications
 
 ### Publications
 
-R. O'Loughlin, B. Oripov, N. Skuda, N. Chongsiriwatana, **I. Whitehouse**, W. Losert, B. Hayes, A. McCaughan and S. Buckley, "δ Multiplexed Gradient Descent: Perturbative Learning with Astrocytes," in Proceedings of the IEEE Conference on Neuro-Inspired Computational Elements (NICE), Atlanta, United States, 2026. [Download](https://iwhitehouse.us/public/content/2026/dmgd_paper.pdf)
+R. O'Loughlin, B. Oripov, N. Skuda, N. Chongsiriwatana, **I. Whitehouse**, W. Losert, B. Hayes, A. McCaughan and S. Buckley, "δ Multiplexed Gradient Descent: Perturbative Learning with Astrocytes," in Proceedings of the IEEE Conference on Neuro-Inspired Computational Elements (NICE), Atlanta, United States, 2026. [DOI](https://doi.org/10.1109/MLSP55844.2023.10285970), [Download](https://iwhitehouse.us/public/content/2026/dmgd_paper.pdf)
 
 **I. Whitehouse**, H. Kang and W. Losert "Emergent Detection of Concept Drift within the Glia-Inspired `Rhythmic Sharing' Algorithm," npj Unconventional Computing, vol. 3, 2026. [DOI](https://doi.org/10.1038/s44335-026-00067-3), [Download](https://iwhitehouse.us/public/content/2026/npj.pdf)
 
-**I. Whitehouse**, R. Yepez-Lopez and R. Corizzo, "Distributed Concept Drift Detection for Efficient Model Adaptation with Big Data Streams," in Proceedings of the 2023 IEEE International Conference on Big Data, Sorrento, Italy, 2023. [DOI](http://dx.doi.org/10.1109/BigData59044.2023.10386334), [Download](https://iwhitehouse.us/public/content/2023/IEEE_Big_Data.pdf)
+**I. Whitehouse**, R. Yepez-Lopez and R. Corizzo, "Distributed Concept Drift Detection for Efficient Model Adaptation with Big Data Streams," in Proceedings of the 2023 IEEE International Conference on Big Data, Sorrento, Italy, 2023. [DOI](http://doi.org/10.1109/BigData59044.2023.10386334), [Download](https://iwhitehouse.us/public/content/2023/IEEE_Big_Data.pdf)
 
 L. P. Damasceno, E. Rexhepi, A. Shafer, **I. Whitehouse**, N. Japkowicz, C. C. Cavalcante, R. Corizzo and Z. Boukouvalas, "Exploiting Sparsity and Statistical Dependence in Multivariate Data Fusion: An Application to Misinformation Detection for High-Impact Events," Machine Learning, vol. 112, 2023. [DOI](https://doi.org/10.1007/s10994-023-06424-8), [Download](https://iwhitehouse.us/public/content/2023/IEEE_MLSP.pdf)
 
