@@ -1,0 +1,21 @@
+---
+permalink: /ja/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+</head>
+<body>
+  <p>Redirecting you to <a id="redirect-link" href="https://iwhitehouse.us">iwhitehouse.us</a>...</p>
+
+  <script>
+    var hash = window.location.hash.substring(1);
+    var campaign = hash ? encodeURIComponent(hash) : "general";
+    var destination = "https://iwhitehouse.us?utm_source=job-app&utm_medium=form&utm_campaign=" + campaign;
+    document.getElementById("redirect-link").href = destination;
+    window.location.href = destination;
+  </script>
+</body>
+</html>
