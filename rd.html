@@ -1,0 +1,38 @@
+---
+permalink: /rd/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+</head>
+<body>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7WKTL1EJG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        
+        gtag('js', new Date());
+        gtag('config', 'G-B7WKTL1EJG', { send_page_view: false });
+    </script>
+
+    <p>Redirecting you to <a id="redirect-link" href="https://iwhitehouse.us">the requested content</a>...</p>
+
+    <script>
+        var content = new URLSearchParams(window.location.search).get("utm_content");
+        var destination = content || "https://iwhitehouse.us";
+        document.getElementById("redirect-link").href = destination;
+
+        var redirected = false;
+        function go() {
+            if (redirected) return;
+            redirected = true;
+            window.location.href = destination;
+        }
+
+        gtag('event', 'page_view', { event_callback: go, event_timeout: 1500 });
+        setTimeout(go, 2000);
+    </script>
+</body>
+</html>
