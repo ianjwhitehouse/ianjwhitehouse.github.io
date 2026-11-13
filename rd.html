@@ -1,38 +1,65 @@
 ---
-permalink: /rd/
+layout: null
+permalink: /doc
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Redirecting...</title>
-</head>
-<body>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7WKTL1EJG"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        
-        gtag('js', new Date());
-        gtag('config', 'G-B7WKTL1EJG', { send_page_view: false });
-    </script>
+<!doctype html>
+<meta charset="utf-8">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B7WKTL1EJG"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+</script>
 
-    <p>Redirecting you to <a id="redirect-link" href="https://iwhitehouse.us">the requested content</a>...</p>
+<p>Loading your <a id="redirect-link" href="/">requested content</a>...</p>
 
-    <script>
-        var content = new URLSearchParams(window.location.search).get("utm_content");
-        var destination = content || "https://iwhitehouse.us";
-        document.getElementById("redirect-link").href = destination;
+<script>
+(function () {
+    var BIBS = ['/public/content/papers.bib', '/public/content/talks.bib'];
+    var FIELDS = { a: 'doi', b: 'url' };
+    var SOURCES = { a: 'website', b: 'job-app', c: 'email' };
+    var MEDIUMS = { a: null, b: 'resume' };
+    var EPOCH = Date.UTC(2026, 10, 1);
 
-        var redirected = false;
-        function go() {
-            if (redirected) return;
-            redirected = true;
-            window.location.href = destination;
-        }
+    var code = (new URLSearchParams(location.search).get('d') || '').toLowerCase();
+    var m = code.match(/^([a-z])([a-z])([a-z])([0-9a-z]{3})([a-z0-9_:-]+)$/);
 
-        gtag('event', 'page_view', { event_callback: go, event_timeout: 1500 });
-        setTimeout(go, 2000);
-    </script>
-</body>
-</html>
+    function go(dest, utm) {
+        document.getElementById('redirect-link').href = dest;
+        var cfg = { send_page_view: false };
+        if (utm) cfg.page_location = location.origin + '/rd?' + new URLSearchParams(utm);
+        gtag('config', 'G-B7WKTL1EJG', cfg);
+
+        var done = false;
+        function leave() { if (!done) { done = true; location.replace(dest); } }
+        gtag('event', 'page_view', { event_callback: leave, event_timeout: 1500 });
+        setTimeout(leave, 2000);
+    }
+
+    if (!m || !FIELDS[m[1]] || !SOURCES[m[2]] || !(m[3] in MEDIUMS)) return go('/');
+
+    Promise.all(BIBS.map(function (p) {
+        return fetch(p).then(function (r) { return r.text(); }).catch(function () { return ''; });
+    })).then(function (texts) {
+        var bib = texts.join('\n');
+        var start = bib.search(new RegExp('@\\w+\\s*\\{\\s*' + m[5] + '\\s*,', 'i'));
+        if (start < 0) return go('/');
+
+        var entry = bib.slice(start).split(/\n\s*@/)[0];
+        var f = entry.match(new RegExp('[,\\s]' + FIELDS[m[1]] + '\\s*=\\s*[{"]([^}"]+)[}"]', 'i'));
+        if (!f) return go('/');
+
+        var value = f[1].trim().replace(/\\([_%&#~])/g, '$1');
+        var dest = m[1] === 'a'
+            ? 'https://doi.org/' + value.replace(/^(https?:\/\/)?(dx\.)?doi\.org\//i, '')
+            : value;
+
+        var utm = { utm_source: SOURCES[m[2]] };
+        if (MEDIUMS[m[3]]) utm.utm_medium = MEDIUMS[m[3]];
+        utm.utm_campaign = new Date(EPOCH + parseInt(m[4], 36) * 86400000).toISOString().slice(0, 10);
+        utm.utm_content = m[5];
+
+        go(dest, utm);
+    });
+})();
+</script>
