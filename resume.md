@@ -21,12 +21,12 @@ title: Resume
 
 <div class="pdf-frame">
     <object
-    data="https://iwhitehouse.us/public/content/2026/resume.pdf"
+    data="https://iwhitehouse.us/public/content/resume.pdf"
     type="application/pdf"
     class="pdf-object">
         <p>
             This browser does not support embedded PDFs.
-            <a href="https://iwhitehouse.us/public/content/2026/resume.pdf">Download the PDF</a>.
+            <a href="https://iwhitehouse.us/public/content/resume.pdf">Download the PDF</a>.
         </p>
     </object>
 </div>
